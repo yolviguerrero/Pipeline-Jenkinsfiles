@@ -1,0 +1,38 @@
+pipeline {
+  agent any
+  stages {
+    stage("Repository") {
+	  echo "Repository"
+      steps {
+      }
+    }
+    stage("Build") {
+      steps {
+        echo "build"
+        }
+      }
+    
+    stage("Test") {
+      steps {
+		echo "Test"
+	  )
+      }
+    }
+
+  stage ('Apply') {
+      input {
+        message "Are you sure?"
+        ok "Yes"
+      }
+      steps {
+        echo "Aplicado"
+      }
+    }
+
+    stage("Deploy") { 
+      steps {
+         echo "deploy"
+      }
+    }
+  } 
+}
