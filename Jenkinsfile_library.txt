@@ -5,4 +5,11 @@ pipelineYolvi {
     projectName    = "Pipeline - Yolvi"
     pipelineCtrl   = [codeCheckout: true, build: true, unitTest: true]
 
+   teamsProject   = "proyecto de equipo"
+    mavenVersion   = "99.9"
+    nodeJsVersion   = "88.8"
+    javaVersion    = "jdk-8"
+
+    buildNode      = "node para buildear"
+    deployNode     = "node para deployar"
 }
