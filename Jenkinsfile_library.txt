@@ -3,6 +3,6 @@
 pipelineYolvi {
 
     projectName    = "Pipeline - Yolvi"
-    pipelineCtrl   = [codeCheckout: true, build: true, unitTest: true, codeQualityAnalysis: true, binaryControl: true, deploy: true]
+    pipelineCtrl   = [codeCheckout: true, build: true, unitTest: true]
 
 }
