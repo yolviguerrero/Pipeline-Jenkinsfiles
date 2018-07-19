@@ -1,0 +1,8 @@
+@Library("yolvi-centralized-pipelines_1")_
+
+pipelineYolvi {
+
+    projectName    = "Pipeline - Yolvi"
+    pipelineCtrl   = [codeCheckout: true, build: true, unitTest: true, codeQualityAnalysis: true, binaryControl: true, deploy: true]
+
+}
