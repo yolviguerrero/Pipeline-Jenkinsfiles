@@ -2,7 +2,7 @@
 
 pipelineYolvi {
 
-    projectName    = "Pipeline - Yolvi"
+    projectName    = "Pipeline - Yolvi "
     pipelineCtrl   = [codeCheckout: true, build: true, unitTest: true, codeQuality: true, qualityAnalysis: true, artifactUpload: true,  deploy: true]
 
     teamsProject   = "proyecto de equipo"
