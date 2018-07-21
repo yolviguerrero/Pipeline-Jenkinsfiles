@@ -11,4 +11,10 @@ pipelineYolvi {
     javaVersion    = "jdk-8"
     buildNode      = "node para buildear"
     deployNode     = "node para deployar"
+    debugOn        = "false"
+    qualityGateOn  = "false"
+    isUnstableAllowed= "false"
+    buildOrder      = "false"
+        
+    
 }
