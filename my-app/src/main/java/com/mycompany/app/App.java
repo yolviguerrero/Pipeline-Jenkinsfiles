@@ -8,6 +8,6 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World! Final Final Final! Super Final" );
+        System.out.println( "Hello World! normal " );
     }
 }
