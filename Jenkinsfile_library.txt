@@ -3,7 +3,7 @@
 pipelineYolvi {
 
     projectName    = "Pipeline - Yolvi "
-    pipelineCtrl   = [codeCheckout: true, build: true, unitTest: true, codeQuality: true, qualityAnalysis: true, artifactUpload: true,  deploy: true]
+    pipelineCtrl   = [codeCheckout: true, build: true, unitTest: true, codeQuality: true, qualityAnalysis: true, artifactUpload: true,  deploy: true, buildDockerImage: true]
 
     teamsProject   = "proyecto de equipo"
     mavenVersion   = "99.9"
@@ -15,6 +15,7 @@ pipelineYolvi {
     qualityGateOn  = "false"
     isUnstableAllowed= "false"
     buildOrder      = "false"
+    
         
     
 }
