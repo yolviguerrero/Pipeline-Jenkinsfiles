@@ -1,6 +1,9 @@
 { 
 	"images": [
         	{ "imageName":"NombreDeLaImagen1", "dockerFile":"DockerFile1"},
-        	{ "imageName":"NombreDeLaImagen2", "dockerFile":"DockerFile2"}
+        	{ "imageName":"NombreDeLaImagen2", "dockerFile":"DockerFile2"},
+		{ "imageName":"NombreDeLaImagen3", "dockerFile":"DockerFile3"},
+		{ "imageName":"NombreDeLaImagen4", "dockerFile":"DockerFile4"},
+		{ "imageName":"NombreDeLaImagen5", "dockerFile":"DockerFile5"}
     	]
 }
