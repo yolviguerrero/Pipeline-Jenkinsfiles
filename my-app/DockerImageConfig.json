@@ -1,6 +1,6 @@
 { 
 	"images": [
-        	{  "imageName":"parametrizador/vivere-param2-par.app", "dockerFile":"docker/Dockerfile_backend"},
+        	{  "imageName":"NombreDelaImagen1", "dockerFile":"DockerFile1"},
 		{  "imageName":"NombreDeLaImagen2", "dockerFile":"DockerFile2"}
     	]
 }
