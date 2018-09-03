@@ -1,4 +1,6 @@
-{
-	"imageName": "NombreDelaImagen3",
-	"dockerFile": "DockerFile1"
+{ 
+	"images": [
+        	{  "imageName":"NombreDelaImagen1", "dockerFile":"DockerFile1"},
+		{  "imageName":"NombreDeLaImagen2", "dockerFile":"DockerFile2"}
+    	]
 }
